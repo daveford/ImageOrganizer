@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ImageOrganizer>
+  <database>
+      <host>localhost</host> 
+      <port>3306</port>
+      <db>ImageOrganizerDB</db>
+	  <username>image</username>
+	  <password>imageOrg</password>
+  </database>
+</ImageOrganizer>
