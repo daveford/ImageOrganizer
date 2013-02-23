@@ -7,6 +7,8 @@
  *
  * @author Dave
  */
-public class Config {
-    
+public class ImageOrganizer {
+    public static void main(String[] args){
+        
+    }
 }
