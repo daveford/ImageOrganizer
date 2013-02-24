@@ -13,7 +13,14 @@ public class ImageOrganizer {
     /**
      * @param args the command line arguments
      */
+    private final String CONFIGFILE = "ImageOrganizerConfig.xml";
     public static void main(String[] args) {
-        // TODO code application logic here
+        Config config;
+        try{
+            config = new Config("ImageOrganizerConfig.xml");
+        }
+        catch(Exception ex){
+            System.exit(1);
+        }
     }
 }
