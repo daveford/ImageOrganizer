@@ -6,5 +6,15 @@ and open the template in the editor.
 
 
 <root>
-    
+    <settings>
+        <database>
+            <host>localhost</host>
+            <user>image</user>
+            <pass>ImageOrganizer</pass>
+            <db>imageorganizerdb</db>
+        </database>
+        <search></search>
+        <insert></insert>
+        <gui></gui>
+    </settings>
 </root>
