@@ -6,8 +6,8 @@ password: ImageOrganizer
 USE imageorganizerdb;
 
 CREATE TABLE IF NOT EXISTS Image_Directories(
-	ID			INT		AUTO_IMCREMENT		PRIMARY KEY,
-	Dir_Path	VARCHAR(100)	NOT NULL,
+	ID			INT		AUTO_INCREMENT		PRIMARY KEY,
+	Dir_Path	VARCHAR(100)	NOT NULL
 );
 
 
